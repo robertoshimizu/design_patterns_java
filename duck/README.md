@@ -4,9 +4,11 @@ The `Strategy Pattern` defines a family of algorithms, encapsulates each one, an
 
 Instead of thinking of the duck behaviors as a *set of behaviors*, we'll start thinking of them as a *family of algorithms*. In this project, the algorithms represent things a duck would do (different ways of quacking or flying), but we could just use the same techniques for a set of classes that implement the way to compute sales tax by different states (Aniche has a example in his book).
 
+![Class Diagram](../assets/DuckStructure.png)
+
 Each duck has a **FlyBehavior** and a **QuackBehavior** to which delegates flying and quacking. When you put two classes together like this, your're using `Composition`. Instead of *inheriting* their behavior, the ducks get their behavior by being *composed* with the right behavior object.
 
-![Class Diagram](../assets/DuckStructure.png)
+![Duck Simulation](../assets/DuckSimulation.png)
 
 ### `Favor composition over inheritance`
 
