@@ -6,6 +6,8 @@ Instead of thinking of the duck behaviors as a *set of behaviors*, we'll start t
 
 Each duck has a **FlyBehavior** and a **QuackBehavior** to which delegates flying and quacking. When you put two classes together like this, your're using `Composition`. Instead of *inheriting* their behavior, the ducks get their behavior by being *composed* with the right behavior object.
 
+![Class Diagram](../assets/DuckStructure.png)
+
 ### `Favor composition over inheritance`
 
 Creating systems using composition gives you a lot mode flexibility. Not only does it let you encapsulate a family of algorithms into their own set of classes, but it also let you **change behavior at runtime** as long as the object you're composing with implements the correct behavior interface.
