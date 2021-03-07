@@ -10,6 +10,7 @@ Each duck has a **FlyBehavior** and a **QuackBehavior** to which delegates flyin
 
 ![Duck Simulation](../assets/DuckSimulation.png)
 
+
 ### `Favor composition over inheritance`
 
 Creating systems using composition gives you a lot mode flexibility. Not only does it let you encapsulate a family of algorithms into their own set of classes, but it also let you **change behavior at runtime** as long as the object you're composing with implements the correct behavior interface.
