@@ -1,3 +1,5 @@
+package starbuzz;
+
 public class StarBuzzCoffee {
 
     public static void main(String args[]){

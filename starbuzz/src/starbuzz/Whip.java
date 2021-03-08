@@ -1,3 +1,5 @@
+package starbuzz;
+
 public class Whip extends CondimentDecorator{
     public Whip(Beverage beverage) {
         this.beverage = beverage;

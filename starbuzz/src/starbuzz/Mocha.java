@@ -1,3 +1,5 @@
+package starbuzz;
+
 public class Mocha extends CondimentDecorator{
 
     public Mocha(Beverage beverage) {
